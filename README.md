@@ -1,5 +1,5 @@
 # rapidSeq v0.5
-========
+
 A text driven HTML 5 based sequence diagramming widget
 
 ## Versions
@@ -21,19 +21,18 @@ To see it in action, pull the project to your environment of choice with a moder
 
 In the lefthand text box, enter something like:
 
-Client => HTTP: LGIN {un} {pw}
-HTTP => Presence: login(un, pw)
-Presence => Presence: @see Presence Server Login
-Presence => HTTP: FNOK LGIN {un} {pkey}
-HTTP => Client: FNOK LGIN {pkey}
-Client => Client: *Updates UI*
-Client => HTTP: ... further messages ...
-Client => HTTP: LGOT
-HTTP => Presence: LGOT {pkey}
-Presence => Presence: @see Presence Server Logout
-Presence => HTTP: FNOK LGOT {pkey}
-HTTP => Client: FNOK
-Client => Client: *client updates UI*
+> HTTP => Presence: login(un, pw)
+> Presence => Presence: @see Presence Server Login
+> Presence => HTTP: FNOK LGIN {un} {pkey}
+> HTTP => Client: FNOK LGIN {pkey}
+> Client => Client: *Updates UI*
+> Client => HTTP: ... further messages ...
+> Client => HTTP: LGOT
+> HTTP => Presence: LGOT {pkey}
+> Presence => Presence: @see Presence Server Logout
+> Presence => HTTP: FNOK LGOT {pkey}
+> HTTP => Client: FNOK
+> Client => Client: *client updates UI*
 
 And the canvas should render an image like:
 
