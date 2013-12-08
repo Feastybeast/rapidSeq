@@ -21,18 +21,7 @@ To see it in action, pull the project to your environment of choice with a moder
 
 In the lefthand text box, enter something like:
 
-> HTTP => Presence: login(un, pw)  
-> Presence => Presence: @see Presence Server Login  
-> Presence => HTTP: FNOK LGIN {un} {pkey}  
-> HTTP => Client: FNOK LGIN {pkey}  
-> Client => Client: *Updates UI*  
-> Client => HTTP: ... further messages ...  
-> Client => HTTP: LGOT  
-> HTTP => Presence: LGOT {pkey}  
-> Presence => Presence: @see Presence Server Logout  
-> Presence => HTTP: FNOK LGOT {pkey}  
-> HTTP => Client: FNOK  
-> Client => Client: *client updates UI*  
+![Example Instruction Set](doc/rapidseq_ins.png "An example rapidSeq instruction set")
 
 And the canvas should render an image like:
 
