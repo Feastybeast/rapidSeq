@@ -29,7 +29,7 @@ And the canvas should render an image like:
 
 ## Thanks
 
-Thanks to both (HTML 5 Boilerplate)[http://html5boilerplate.com/] and (jQuery)[http://www.jquery.com] for making things easier on the project.
+Thanks to both [HTML 5 Boilerplate](http://html5boilerplate.com/) and [jQuery](http://www.jquery.com) for making things easier on the project.
 
 ## Notes and Nitty Gritty
 
